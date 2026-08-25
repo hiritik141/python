@@ -6,6 +6,7 @@ def file_stats(filename):
 
     num_chars = len(text)                  
     num_words = len(text.split())         
+    
     num_lines = text.count("\n") + 1 if text else 0   
 
     return num_chars, num_words, num_lines
